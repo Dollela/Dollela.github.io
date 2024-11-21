@@ -1,0 +1,68 @@
+h1{
+    position: fixed;
+    left: 490px;
+    color: rgb(211, 205, 205);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxxlarge;
+    font-weight: 700;
+}
+body{
+    background-color: rgb(57, 52, 52);
+}
+.introductionE{
+    color: blanchedalmond;
+    width: 285px;
+    position: relative;
+    top: 70px;
+    left: 940px;
+    width: 300px;
+    height: 170px;
+    overflow: auto;
+    z-index: 2;
+} 
+.introductionC{
+    color: blanchedalmond;
+    position: relative;
+    top: 310px;
+    left: 90px;
+    width: 285px;
+    width: 300px;
+    height: 170px;
+    overflow: auto;
+    z-index: 2;
+}
+.box1{
+    position:fixed;
+    top: 95%;
+    left: 90%;
+    
+    
+}
+.back{
+    color: black;
+    text-decoration: none;
+}
+.pictures{
+    z-index: 1;
+    position: relative;
+}
+.p1{
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}
+.p2{
+    position: relative;
+    bottom: 220px;
+    left: 200px;
+}
+.p3{
+    position: relative;
+    bottom: 370px;
+    left: 290px;
+}
+.p4{
+    position: relative;
+    bottom: 170px;
+    left: 10px;
+}
