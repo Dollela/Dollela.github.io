@@ -11,7 +11,7 @@ h1{
 body{
     background-color: rgb(49, 49, 49);
     height: 650px;
-    width: 420px;
+    width: 1200px;
 }
 .box1{
     position:fixed;
@@ -88,4 +88,15 @@ button:hover{
 }
 .jl:hover{
     transform: scale(1.05);
+}
+.words{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    width: 1100px;
+    bottom: 820px;
+    left: 100px;
 }

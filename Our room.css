@@ -45,7 +45,7 @@ button{
     margin: 20px;
     width: 1300px;
     position: relative;
-    bottom: 320px;
+    bottom: 190px;
     right: 10px;
 
 }
@@ -62,4 +62,11 @@ button{
 }
 .image:hover{
     transform: scale(1.1);
+}
+.name{
+    color: antiquewhite;
+    position: relative;
+    bottom: 200px;
+    left: 190px;
+    font-size: larger;
 }
