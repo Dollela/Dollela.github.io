@@ -20,10 +20,10 @@ body{
     transition: 1s;
     transform: translate(0,0);
 }
-button{
+#myButton{
     position: relative;
     top: 150px;
-    right: 330px;
+    right: 350px;
     padding: 12px 30px;
     background-color: rgb(69, 68, 68);
     color: white;
@@ -45,7 +45,7 @@ button{
     margin: 20px;
     width: 1300px;
     position: relative;
-    bottom: 190px;
+    bottom: 210px;
     right: 10px;
 
 }
@@ -63,10 +63,31 @@ button{
 .image:hover{
     transform: scale(1.1);
 }
-.name{
+.text{
     color: antiquewhite;
     position: relative;
     bottom: 200px;
     left: 190px;
     font-size: larger;
+}
+.text {
+   opacity: 0;
+    transition:opacity 2.5s
+}
+
+/* 激活状态显示 */
+.text.active {
+    visibility: visible;
+    opacity: 1;
+}
+.b2{
+    position: relative;
+    bottom: 150px;
+    left: 635px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+}
+button:hover{
+    background-color: rgb(255, 255, 175);
 }
