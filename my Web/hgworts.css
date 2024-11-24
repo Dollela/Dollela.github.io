@@ -1,0 +1,102 @@
+h1{
+    font-size: xxx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-style: oblique;
+    position:fixed;
+    left: 550px;
+    top: -3%;
+    color:rgb(252, 252, 252);
+}
+body{
+    background-color: rgb(49, 49, 49);
+    height: 650px;
+    width: 1200px;
+}
+.box1{
+    position:fixed;
+    top: 95%;
+    left: 90%;
+    
+    
+}
+.back{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: floralwhite;
+}
+.map{
+    position: relative;
+    left: 420px;
+    top: 70px;
+}
+/*.map:hover{
+    transition-delay:  1s ease-in-out;
+    background-image: url(./background.jpg);
+}*/
+.kdq{
+    position: relative;
+    bottom: 480px;
+    left: 60px;
+    color: rgb(254, 245, 206);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    height: 200px;
+    transition: 0.5s;
+}
+.cb{
+    position: relative;
+    bottom: 430px;
+    left: 50px;
+    color: rgb(254, 245, 206);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    transition: 0.5s;
+}
+.hh{
+    position: relative;
+    bottom: 680px;
+    left: 900px;
+    color: rgb(254, 245, 206);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    transition: 0.5s;
+}
+.jl{
+    bottom: 1180px;
+    left: 900px;
+    position: relative;
+    color: rgb(254, 245, 206);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    transition: 0.5s;
+}
+.kdq:hover{
+    transform: scale(1.05);
+}
+.cb:hover{
+    transform: scale(1.05);
+}
+.hh:hover{
+    transform: scale(1.05);
+}
+.jl:hover{
+    transform: scale(1.05);
+}
+.words{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    width: 1100px;
+    bottom: 820px;
+    left: 100px;
+}

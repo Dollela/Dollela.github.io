@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 216, 161);
+    height: 700px;
+    width: 900px;
+}
+h1{
+    color: rgb(48, 48, 48);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxxlarge;
+    font-weight: 700;
+    position: fixed;
+    left: 460px;
+}
+.departments{
+    color: rgb(65, 64, 64);
+    font-weight: 550;
+    font-size: medium;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    bottom: 750px;
+    left: 130px;
+}
+.en{
+    color: rgb(35, 34, 34);
+    width: 200px;
+    position: relative;
+    height: 280px;
+    overflow: auto;
+    left: 110px;
+    bottom: 480px;
+}
+.ch{
+    color: rgb(35, 34, 34);
+    width: 200px;
+    position: relative;
+    left: 1000px;
+    height: 280px;
+    overflow: auto;
+    bottom: 770px;
+}
+.picture1{
+    position: relative;
+    top: 80px;
+    left: 370px;
+    transition:0.5s ;
+}
+.p2{
+    position: relative;
+    left: 660px;
+    bottom: 195px;
+    transition:0.5s ;
+}
+.picture1:hover{
+    transform: scale(1.05);
+}
+.p2:hover{
+    transform: scale(1.05);
+}
